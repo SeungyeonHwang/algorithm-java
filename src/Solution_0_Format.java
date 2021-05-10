@@ -13,7 +13,7 @@ public class Solution_0_Format {
     @Test
     public void Answer() {
         Assertions.assertEquals("mislav", solution(
-                new String[]{"mislav", "stanko", "mislav", "ana", "mislav"},  //참가자
-                new String[]{"stanko", "ana", "mislav"}));  //완주자
+                new String[]{"mislav", "stanko", "mislav", "ana", "mislav"},
+                new String[]{"stanko", "ana", "mislav"}));
     }
 }
