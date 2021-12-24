@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Solution1 solution = new Solution1();
+        Solution2 solution = new Solution2();
 
-        String new_id = ".-...!@BaT#*..y.Abcdefghijklm.";
-        System.out.println(solution.solution(new_id));
+        String ex = "one4seveneight";
+        System.out.println(solution.solution(ex));
     }
 }
 
