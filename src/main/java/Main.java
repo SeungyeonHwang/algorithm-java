@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Solution2 solution = new Solution2();
+        Solution3 solution = new Solution3();
 
-        String ex = "one4seveneight";
-        System.out.println(solution.solution(ex));
+        int[] ex = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+        System.out.println(solution.solution(ex,"right"));
     }
 }
 
