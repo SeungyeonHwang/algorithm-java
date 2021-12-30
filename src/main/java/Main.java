@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Solution3 solution = new Solution3();
+        Solution4 solution = new Solution4();
+        int[][] board = {{0, 0, 0, 0, 0}, {0, 0, 1, 0, 3}, {0, 2, 5, 0, 1}, {4, 2, 4, 4, 2}, {3, 5, 1, 3, 1}};
+        int[] moves = {1, 5, 3, 5, 1, 2, 1, 4};
 
-        int[] ex = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-        System.out.println(solution.solution(ex,"right"));
+        System.out.println(solution.solution(board, moves));
     }
 }
 
