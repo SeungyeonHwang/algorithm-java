@@ -1,0 +1,11 @@
+
+L
+java:S1854"7Remove this useless assignment to local variable "len".(ãÖ¹/
+K
+java:S1854"6Remove this useless assignment to local variable "sb".(Ä‚=
+A
+java:S1481"+Remove this unused "answer" local variable.(åí¢é
+<
+java:S1481"'Remove this unused "sb" local variable.(Ä‚=
+=
+java:S1481"(Remove this unused "len" local variable.(ãÖ¹/
